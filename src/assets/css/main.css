@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+    .-translate-x-1\/2 {
+        --tw-translate-x: -50% !important;
+    }
+}
